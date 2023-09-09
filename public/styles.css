@@ -63,3 +63,24 @@ div#picture {
   overflow: hidden;
   height: 450px;
 }
+
+@media only screen and (max-width: 640px) {
+  img {
+    width: 90%;
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+    object-fit: contain;
+  }
+  div#picture {
+    margin: 0;
+  }
+
+  input {
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}
