@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 html {
-  background-image: linear-gradient(to bottom right, rgb(46, 145, 95), azure);
+  background-image: url("background.jpg");
+  background-size: cover;
   background-attachment: fixed;
   height: 100%;
   width: 100%;
